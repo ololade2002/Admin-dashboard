@@ -1,0 +1,35 @@
+#check {
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+ #check {
+    display: flex;
+ }
+    .ham {
+       display: flex;
+       flex-direction: column;
+       padding: 0.6rem;
+     max-width: 992px;
+     
+      }
+       .line {
+           width: 35px;
+           height: 4px;
+          background-color: black;
+          margin-top: 6px;
+        margin-left: auto;
+       }
+       .change .ham>:nth-child(1) {
+           transform: rotate(-45deg) translate(-11px,5px) ;
+       }
+       .change .ham>:nth-child(2) {
+           opacity: 0;
+       }
+       .change .ham>:nth-child(3) {
+           transform: rotate(45deg) translate(-12px,-8px);
+       }
+       #check:checked ~ .nav-links {
+           left: 0;
+}
+       }

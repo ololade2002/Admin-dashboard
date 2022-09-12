@@ -1,0 +1,29 @@
+.cards {
+    display: flex;
+gap: 10px;
+
+}
+.cards-preview {
+    width: 100%;
+
+}
+
+@media screen and (max-width:1200px) {
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .cards {
+        display: block;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .cards {
+        width: 90%;
+   
+    }
+}

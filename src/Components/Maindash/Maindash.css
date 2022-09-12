@@ -1,0 +1,24 @@
+.maindash {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;   
+margin-top: 2rem;
+}
+.maindash h2 {
+   font-size: 25px;
+font-weight: 500;
+}
+
+@media screen and (max-width:1200px) {
+  .maindash {
+   margin-top: 0rem;
+   
+  }
+}
+
+@media screen and (max-width:768px) {
+   .maindash {
+      align-items: center;
+      margin-top: 3rem;
+   }
+}

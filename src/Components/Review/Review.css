@@ -1,0 +1,12 @@
+
+@media  screen and (max-width:1200px) {
+    .review {
+        transform: translateY(-16rem);
+    }
+}
+@media screen and (max-width:768px) {
+    .review {
+        transform: translateY(-2rem);
+        width: 20rem;
+    }
+}

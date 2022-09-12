@@ -1,0 +1,36 @@
+.update {
+    background-color: white;
+    width: 85%;
+    border-radius: .7rem;
+    display: flex;
+    gap: .3rem;
+    flex-direction: column;
+    font-size: 13px;
+    
+    padding: .2rem 1rem;
+}
+.update-preview {
+    display: flex;
+    margin-top: .5rem ;
+    gap: .5rem;
+}
+.update-preview>img {
+    width: 3.2rem;
+    height: 3.2rem;
+}
+.text>div {
+    margin-bottom: .1rem;
+}
+.text>div>:nth-of-type(1) {
+   font-weight: bold;
+}
+
+
+@media screen and (max-width:1200px) {
+    .update {
+        transform: translateY(-6.4rem);
+     }
+     .update-preview {
+         margin-bottom: 0rem;
+     }
+}
